@@ -105,60 +105,25 @@ $(document).ready(function () {
     });
 
     // Go To Plan behaviour
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= pxShow) {
-            $("#gotoplans").addClass('visible');
-        } else {
-            $("#gotoplans").removeClass('visible');
-        }
-    });
-    $('#gotoplans a').on('click', function () {
+    $("#gotoplans").click(function () {
         $('html, body').animate({
-            scrollTop: 300,
-        }, scrollSpeed);
-        return false;
+            scrollTop: $("#plans").offset().top
+        }, 2000);
     });
-
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= pxShow) {
-            $("#movetoplans").addClass('visible');
-        } else {
-            $("#movetoplans").removeClass('visible');
-        }
-    });
-    $('#movetoplans a').on('click', function () {
+    $("#movetoplans").click(function () {
         $('html, body').animate({
-            scrollBottom: 300
-        }, scrollSpeed);
-        return false;
+            scrollTop: $("#plans").offset().top
+        }, 2000);
     });
-
-    $(window).scroll(function () {
-        if ($(window).scrollBottom() >= pxShow) {
-            $("#seetheplans").addClass('visible');
-        } else {
-            $("#seetheplans").removeClass('visible');
-        }
-    });
-    $('#seetheplans a').on('click', function () {
+    $("#seetheplans").click(function () {
         $('html, body').animate({
-            scrollBottom: 400
-        }, scrollSpeed);
-        return false;
+            scrollTop: $("#plans").offset().top
+        }, 2000);
     });
-
-    $(window).scroll(function () {
-        if ($(window).scrollBottom() >= pxShow) {
-            $("#seeplans").addClass('visible');
-        } else {
-            $("#seeplans").removeClass('visible');
-        }
-    });
-    $('#seeplans a').on('click', function () {
+    $("#seeplans").click(function () {
         $('html, body').animate({
-            scrollTop: 0
-        }, scrollSpeed);
-        return false;
+            scrollTop: $("#plans").offset().top
+        }, 2000);
     });
 
     // Select all links with hashes
