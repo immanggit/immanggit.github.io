@@ -3,15 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://something-fresh.org/categories/</loc>
+    <loc>https://immanggit.github.io</loc>
   </url>
   
   <url>
-    <loc>http://something-fresh.org/</loc>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/tags/</loc>
+    <loc>http://something-fresh.org/trip-packet</loc>
   </url>
   
 </urlset>
