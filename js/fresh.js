@@ -128,13 +128,13 @@ $(document).ready(function () {
     });
     $('#movetoplans a').on('click', function () {
         $('html, body').animate({
-            scrollTop: 0
+            scrollBottom: 300
         }, scrollSpeed);
         return false;
     });
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= pxShow) {
+        if ($(window).scrollBottom() >= pxShow) {
             $("#seetheplans").addClass('visible');
         } else {
             $("#seetheplans").removeClass('visible');
@@ -142,13 +142,13 @@ $(document).ready(function () {
     });
     $('#seetheplans a').on('click', function () {
         $('html, body').animate({
-            scrollTop: 4000
+            scrollBottom: 400
         }, scrollSpeed);
         return false;
     });
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= pxShow) {
+        if ($(window).scrollBottom() >= pxShow) {
             $("#seeplans").addClass('visible');
         } else {
             $("#seeplans").removeClass('visible');
