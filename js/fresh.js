@@ -108,22 +108,22 @@ $(document).ready(function () {
     $("#gotoplans").click(function () {
         $('html, body').animate({
             scrollTop: $("#plans").offset().top
-        }, 2000);
+        }, 500);
     });
     $("#movetoplans").click(function () {
         $('html, body').animate({
             scrollTop: $("#plans").offset().top
-        }, 2000);
+        }, 500);
     });
     $("#seetheplans").click(function () {
         $('html, body').animate({
             scrollTop: $("#plans").offset().top
-        }, 2000);
+        }, 500);
     });
     $("#seeplans").click(function () {
         $('html, body').animate({
             scrollTop: $("#plans").offset().top
-        }, 2000);
+        }, 500);
     });
 
     // Select all links with hashes
