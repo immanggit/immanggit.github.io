@@ -114,7 +114,7 @@ $(document).ready(function () {
     });
     $('#gotoplans a').on('click', function () {
         $('html, body').animate({
-            scrollTop: 0
+            scrollTop: 300,
         }, scrollSpeed);
         return false;
     });
@@ -142,7 +142,7 @@ $(document).ready(function () {
     });
     $('#seetheplans a').on('click', function () {
         $('html, body').animate({
-            scrollTop: 0
+            scrollTop: 4000
         }, scrollSpeed);
         return false;
     });
